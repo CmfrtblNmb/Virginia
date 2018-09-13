@@ -1,8 +1,7 @@
-package com.example.test.services.site.manager.helpers;
+package com.example.test.services.manager.helpers;
 
 import com.example.test.lawyerDTO.Lawyer;
 import com.example.test.lawyerDTO.License;
-import com.example.test.services.connections.SiteConnection;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

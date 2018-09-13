@@ -1,9 +1,7 @@
-package com.example.test.services.site.manager.helpers;
-
+package com.example.test.services.manager.helpers;
 import com.example.test.lawyerDTO.Lawyer;
 import com.google.common.reflect.TypeToken;
 import com.google.gson.Gson;
-
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Type;

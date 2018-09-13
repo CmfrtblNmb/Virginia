@@ -1,4 +1,4 @@
-package com.example.test.services.site.manager.helpers;
+package com.example.test.services.manager.helpers;
 
 import java.io.File;
 

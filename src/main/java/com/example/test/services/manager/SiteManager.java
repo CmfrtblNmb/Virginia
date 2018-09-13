@@ -1,21 +1,10 @@
 package com.example.test.services.manager;
-import com.example.test.lawyerDTO.Lawyer;
-import com.example.test.lawyerDTO.License;
 import com.example.test.services.connections.SiteConnection;
-import com.example.test.services.site.manager.helpers.LawyersLinksOpener;
-import com.example.test.services.site.manager.helpers.PageChanger;
-import com.google.common.reflect.TypeToken;
-import com.google.gson.Gson;
+import com.example.test.services.manager.helpers.LawyersLinksOpener;
+import com.example.test.services.manager.helpers.PageChanger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import java.io.File;
-import java.io.IOException;
-import java.lang.reflect.Type;
-import java.nio.file.Files;
-import java.util.ArrayList;
-import java.util.List;
 
 public class SiteManager {
     SiteConnection siteConnection = new SiteConnection();
@@ -47,13 +36,4 @@ public class SiteManager {
         }
         siteConnection.closeBrowser();
     }
-
-
-
-
-
-
-
-
-
 }

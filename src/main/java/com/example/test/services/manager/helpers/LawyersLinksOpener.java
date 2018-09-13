@@ -1,4 +1,4 @@
-package com.example.test.services.site.manager.helpers;
+package com.example.test.services.manager.helpers;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,7 +16,6 @@ public class LawyersLinksOpener {
                 url.click();
                 dataWriter.writesDataAsJson(fileCreator.createsNewFiles(k),lawyerInfoGetter.getsLawyersInfo(siteConnection));
                 driver.navigate().back();
-
                 k++;
             } catch (Exception ex) {
                 break;

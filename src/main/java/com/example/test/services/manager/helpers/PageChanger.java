@@ -1,6 +1,4 @@
-package com.example.test.services.site.manager.helpers;
-
-import com.example.test.services.connections.SiteConnection;
+package com.example.test.services.manager.helpers;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
