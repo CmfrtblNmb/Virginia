@@ -1,17 +1,16 @@
 package com.example.test.services.connections;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class SiteConnection
-{
+public class SiteConnection {
     WebDriver driver = new ChromeDriver();
 
-    public void  openBrowser() {
+    public void openBrowser() {
         driver.navigate().to("http://member.vsb.org/attsearch/search.aspx");
     }
-    public WebDriver getDriver(){
+
+    public WebDriver getDriver() {
         return driver;
     }
 

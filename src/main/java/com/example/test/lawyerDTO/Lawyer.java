@@ -3,13 +3,13 @@ package com.example.test.lawyerDTO;
 public class Lawyer {
     private String name;
     private String phoneNumber;
-    private String physicalAdress;
+    private String physicalAddress;
     private License license;
 
-    public Lawyer(String name, String phoneNumber, String physicalAdress, License license) {
+    public Lawyer(String name, String phoneNumber, String physicalAddress, License license) {
         this.name = name;
         this.phoneNumber = phoneNumber;
-        this.physicalAdress = physicalAdress;
+        this.physicalAddress = physicalAddress;
         this.license = license;
     }
 
@@ -31,12 +31,12 @@ public class Lawyer {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getPhysicalAdress() {
-        return physicalAdress;
+    public String getPhysicalAddress() {
+        return physicalAddress;
     }
 
-    public void setPhysicalAdress(String physicalAdress) {
-        this.physicalAdress = physicalAdress;
+    public void setPhysicalAddress(String physicalAddress) {
+        this.physicalAddress = physicalAddress;
     }
 
     public License getLicense() {
@@ -52,7 +52,7 @@ public class Lawyer {
         return "Lawyer{" +
                 "name='" + name + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
-                ", physicalAdress='" + physicalAdress + '\'' +
+                ", physicalAddress='" + physicalAddress + '\'' +
                 ", license=" + license +
                 '}';
     }

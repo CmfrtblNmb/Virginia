@@ -9,7 +9,7 @@ import java.io.IOException;
 @RunWith(MockitoJUnitRunner.class)
 public class SiteManagerTest {
 
-    int i=1;
+   /* int i=1;
 
     @InjectMocks
     SiteManager siteManager = new SiteManager();
@@ -43,6 +43,6 @@ public class SiteManagerTest {
     @Test
     public void dataWriterTest() throws IOException {
         siteManager.dataWriter(i);
-    }
+    }*/
 
 }
